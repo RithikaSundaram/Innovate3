@@ -1,0 +1,213 @@
+/* General Page Styles */
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f1f8e9;
+	/* Light Green Background */
+	margin: 0;
+	padding: 0;
+}
+
+/* Main Container */
+.container {
+	text-align: center;
+	padding: 20px;
+}
+
+/* Page Title */
+.page-title {
+	font-size: 30px;
+	font-weight: bold;
+	color: #2e7d32;
+	/* Dark Green */
+	margin-bottom: 15px;
+}
+
+/* Description */
+.description {
+	font-size: 16px;
+	color: #444;
+	margin-bottom: 20px;
+}
+
+/* Divider Line */
+.divider {
+	width: 60%;
+	height: 3px;
+	background-color: #4caf50;
+	/* Green */
+	margin: 10px auto 20px;
+}
+
+/* Quote Box */
+.quote-box {
+	background: #ffffff;
+	/* White */
+	border-left: 5px solid #4caf50;
+	/* Green */
+	padding: 15px;
+	width: 60%;
+	margin: 0 auto 20px;
+	box-shadow: 2px 2px 10px rgba(239, 11, 11, 0.1);
+	font-style: italic;
+	color: #2e7d32;
+}
+
+.quote-icon {
+	width: 25px;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+/* Accordion Section */
+.accordion-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 15px;
+}
+
+.accordion-item {
+	width: 220px;
+	background: #e8f5e9;
+	/* Light Green */
+	border-radius: 8px;
+	padding: 10px;
+	text-align: center;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.accordion-item:hover {
+	background: #c8e6c9;
+	/* Lighter Green */
+}
+
+.accordion-title {
+	background: none;
+	border: none;
+	font-size: 16px;
+	font-weight: bold;
+	color: #2e7d32;
+	/* Dark Green */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+}
+
+.accordion-icon {
+	width: 30px;
+	height: 30px;
+}
+
+/* Modal (Pop-up Window) */
+.modal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.modal-content {
+	background: white;
+	padding: 25px;
+	border-radius: 10px;
+	width: 400px;
+	text-align: center;
+	position: relative;
+	box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+	animation: fadeIn 0.3s ease-in-out;
+}
+
+.modal-content h3 {
+	color: #2e7d32;
+	/* Dark Green */
+	margin-bottom: 15px;
+}
+
+/* Form Elements */
+.modal-content form {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.modal-content label {
+	font-size: 14px;
+	font-weight: bold;
+	color: #444;
+	text-align: left;
+}
+
+.modal-content input,
+.modal-content select {
+	width: 100%;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background-color: #ccd1cc;
+	color: #0f0f0f;
+}
+
+.form-buttons {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 15px;
+}
+
+.form-buttons button {
+	padding: 10px 15px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.form-buttons button:first-child {
+	background: #4caf50;
+	/* Green */
+	color: white;
+}
+
+.form-buttons button:first-child:hover {
+	background: #388e3c;
+}
+
+.form-buttons button:last-child {
+	background: #e53935;
+	color: white;
+}
+
+.form-buttons button:last-child:hover {
+	background: #c62828;
+}
+
+.footer {
+	margin-top: 30px;
+	padding: 10px;
+	background: #e8f5e9;
+	text-align: center;
+	color: #388e3c;
+}
+
+.footer-img {
+	width: 50px;
+	margin-bottom: 5px;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: scale(0.9);
+	}
+
+	to {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
