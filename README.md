@@ -6,35 +6,34 @@ The official template repository for Define 3.0
 
 
 
-# < Project Name >
- Cover Image  If applicable
+# GreenTrek: Track, Reduce, and Offset Your Carbon Footprint
+
 
 ### Team Information
-- **Team Name**: <Team Name> 
-- **Track**: < Track >
+- **Team Name**: Innovate3 
+- **Track**: Sustainability - Open Track
 
 ### Team Members
 | Name | Role | GitHub | LinkedIn |
 |------|------|--------|----------|
-| [Full Name] | [Role] | [@username](https://github.com/username) | [Profile](https://linkedin.com/in/username) |
-| [Full Name] | [Role] | [@username](https://github.com/username) | [Profile](https://linkedin.com/in/username) |
-| [Full Name] | [Role] | [@username](https://github.com/username) | [Profile](https://linkedin.com/in/username) |
-| [Full Name] | [Role] | [@username](https://github.com/username) | [Profile](https://linkedin.com/in/username) |
+| Rithika S | Frontend / Backend | [@username](https://github.com/RithikaSundaram) | [Profile](https://www.linkedin.com/in/rithika-sundaram-096554258) |
+| Prasanna Kumar V G | Backend / API Integration | [@username](https://github.com/prasannakumarvg) | [Profile](https://www.linkedin.com/in/prasannakumarvg) |
+| Shrinaya S K | Frontend | [@username](https://github.com/skshrinaya) | [Profile](www.linkedin.com/in/shrinaya-sk) |
 
 ## Project Details
 
 ### Overview
-_A concise summary of your project (2-3 sentences)_
+Greentrek is a web-based platform that helps individuals and businesses calculate their carbon footprint based on their daily activities. Users input relevant data such as transportation, energy consumption, and lifestyle choices to estimate their environmental impact. Based on their carbon footprint score, the platform provides personalized recommendations to adopt sustainable practices.
 
 ### Problem Statement
-_Describe the problem your project aims to solve_
+Climate change is accelerating due to excessive carbon emissions from human activities, yet many individuals and businesses lack awareness of their environmental impact. There is a gap in accessible, user-friendly tools that help people track, understand, and take action to reduce their carbon footprint.
 
 ### Solution
-_Explain your approach to solving the problem_
+Greentrek provides an easy-to-use carbon footprint calculator that estimates emissions based on user input. The platform not only displays the carbon footprint but also offers actionable recommendations to help users make eco-friendly choices. Future integrations with APIs such as Google Maps (for transportation data) and Climatiq (for emission calculations) will further automate the process and improve accuracy.
 
 ### Demo
-[![Project Demo](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)
-_Replace VIDEO_ID with your YouTube video ID or provide an alternative demo link_
+[![Project Demo](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://drive.google.com/file/d/1l8l3StvePWfAqr_U3Q3IlDgnkaQUS1PC/view?usp=sharing)
+
 
 ### Live Project
 [Project Name](https://your-project-url.com)
@@ -42,51 +41,43 @@ _Replace VIDEO_ID with your YouTube video ID or provide an alternative demo link
 ## Technical Implementation
 
 ### Technologies Used
-- **Frontend**: [Technologies]
-- **Backend**: [Technologies]
-- **Database**: [Technologies]
-- **APIs**: [Technologies]
-- **DevOps**: [Technologies]
-- **Other Tools**: [Technologies]
+- **Frontend**: ReactJS
+- **Backend**: NodeJS , ExpressJS
+- **Database**: MongoDB
+- **APIs**: Gemini API`
 
 ### Key Features
-- Feature 1
-- Feature 2
-- Feature 3
+1.Carbon Footprint Calculation – Users can input data related to transportation, energy usage, and lifestyle to estimate their carbon footprint.
+2.Personalized Recommendations – Based on the carbon footprint score, users receive tailored suggestions to reduce their environmental impact.
+3.User-Friendly Dashboard – A simple and intuitive interface to track emissions and improvements over time.
 
 ## Setup Instructions
 
 ### Prerequisites
-- Requirement 1
-- Requirement 2
-- Requirement 3
+- Node.js installed (v14 or later)
+- MongoDB database (if storing user data)
+- API keys for future integrations (Google Maps, Climatiq, Gemini AI)
 
 ### Installation 
 ```bash
+git clone (https://github.com/RithikaSundaram/Innovate3.git)
+npm install
 
 ```
 
 ### Running the Project
 ```bash
+Frontend
+cd client
+cd greentrek
+npm i
+npm run dev
 
+Backend
+cd server
+npm i
+node server.js
 ```
-
-## Additional Resources
-
-### Project Timeline
-_Brief overview of your development process and milestones_
-
-### Challenges Faced
-_Discuss technical challenges and how you overcame them_
-
-### Future Enhancements
-_Share your vision for future development_
-
-### References (if any)
-- [Reference 1](link)
-- [Reference 2](link)
-
----
 
 ### Submission Checklist
 - [ ] Completed all sections of this README
